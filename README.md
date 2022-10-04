@@ -61,7 +61,7 @@ Postman-win64-Setup (que también se va a usar más adelante)
 
 ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 
-De primera mano que la instrucción que se me dío el paso 2 estaba mal, no estaba comillado el email y solo obtenía error, pero una vez comillado se ejecutó correctamente, y al hacer el paso 3 del GET a la dirección indicada, se han insertado los datos que envíe, al final del response.
+De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el email y solo se obtenía error. Una vez comillado se ejecutó correctamente la inserción, y al hacer el paso 3 del GET a la dirección indicada, se observa que se han insertado los datos que se envió, al final del response.
 
 ## EJERCICIO 4
 Se solicita el usuario de TrailHead y se procede al cambio del idioma, tal cual se indica en las instrucciones. Posterior se realizan los módulos indicados.
