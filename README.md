@@ -1,6 +1,12 @@
 # ProContacto
+## EJERCICIO 1
+Se realizan la descarga e instalación de:
+VSCodeUserSetup-x64-1.71.2
+Git-2.38.0-64-bit
+Postman-win64-Setup
 
-Cuestionario de preguntas de comprensión del protocolo HTTP
+## EJERCICIO 2
+### Cuestionario de preguntas de comprensión del protocolo HTTP
 
 [•	**¿Qué es un servidor HTTP?** ](https://developer.mozilla.org/es/docs/Learn/Common_questions/What_is_a_web_server "•	¿Qué es un servidor HTTP? ")- Un servidor HTTP es una pieza de software capaz de comprender URLs (direcciones web) y HTTP (el protocolo que tu navegador usa para obtener las páginas web).
 
@@ -33,7 +39,7 @@ Cuestionario de preguntas de comprensión del protocolo HTTP
 
 •	[**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**](https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Content-Type "¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?") – Como ya se indico antes los headers o cabeceras HTTP de una petición siguen la misma estructura que la de una cabecera HTTP. Content-Type es la propiedad de cabecera (header) usada para indicar el media type (en-US) del recurso. Content-Type dice al cliente que tipo de contenido será retornado.
 
-## Ejercicio 2
+## Ejercicio 3
 
 •	Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
 ![imagen](https://user-images.githubusercontent.com/16022218/193928585-7b48f4a8-6e91-44bb-b9bb-ea9c7f3b1703.png)
@@ -52,4 +58,7 @@ Cuestionario de preguntas de comprensión del protocolo HTTP
 
 ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 
-De primera mano que la instrucción que se me dío el paso 2 estaba mal, no estaba comillado el email y solo obtenía error, pero una vez comillado se ejecutaba correctamente, y al hacer el paso 3 del GET a la dirección indicada, se han agregado los datos que envíe.
+De primera mano que la instrucción que se me dío el paso 2 estaba mal, no estaba comillado el email y solo obtenía error, pero una vez comillado se ejecutó correctamente, y al hacer el paso 3 del GET a la dirección indicada, se han agregado los datos que envíe al final del archivo.
+
+## EJERCICIO 4
+Se solicita el usuario de TrailHead y se procede al cambio del idioma, tal cual se indica en las instrucciones. Posterior se realizan los módulos indicados.
