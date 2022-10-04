@@ -1,5 +1,7 @@
 # ProContacto
 
+Cuestionario de preguntas de comprensión del protocolo HTTP
+
 [•	**¿Qué es un servidor HTTP?** ](https://developer.mozilla.org/es/docs/Learn/Common_questions/What_is_a_web_server "•	¿Qué es un servidor HTTP? ")- Un servidor HTTP es una pieza de software capaz de comprender URLs (direcciones web) y HTTP (el protocolo que tu navegador usa para obtener las páginas web).
 
 •	[**¿Qué son los verbos HTTP? Mencionar los más conocidos**](https://developer.mozilla.org/es/docs/Web/HTTP/Methods "¿Qué son los verbos HTTP? Mencionar los más conocidos") - HTTP define un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado. Aunque estos también pueden ser sustantivos, estos métodos de solicitud a veces son llamados HTTP verbs. Cada uno de ellos implementan una semántica diferente, pero algunas características similares son compartidas por un grupo de ellos: ej. un request method puede ser safe, idempotent (en-US), o cacheable.
