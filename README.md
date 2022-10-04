@@ -1,9 +1,12 @@
 # ProContacto
 ## EJERCICIO 1
 Se realizan la descarga e instalación de:
+
 VSCodeUserSetup-x64-1.71.2
+
 Git-2.38.0-64-bit
-Postman-win64-Setup
+
+Postman-win64-Setup (que también se va a usar más adelante)
 
 ## EJERCICIO 2
 ### Cuestionario de preguntas de comprensión del protocolo HTTP
@@ -58,7 +61,7 @@ Postman-win64-Setup
 
 ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
 
-De primera mano que la instrucción que se me dío el paso 2 estaba mal, no estaba comillado el email y solo obtenía error, pero una vez comillado se ejecutó correctamente, y al hacer el paso 3 del GET a la dirección indicada, se han agregado los datos que envíe al final del archivo.
+De primera mano que la instrucción que se me dío el paso 2 estaba mal, no estaba comillado el email y solo obtenía error, pero una vez comillado se ejecutó correctamente, y al hacer el paso 3 del GET a la dirección indicada, se han insertado los datos que envíe, al final del response.
 
 ## EJERCICIO 4
 Se solicita el usuario de TrailHead y se procede al cambio del idioma, tal cual se indica en las instrucciones. Posterior se realizan los módulos indicados.
