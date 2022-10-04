@@ -34,7 +34,7 @@ Postman-win64-Setup (que también se va a usar más adelante)
 
 ![imagen](https://user-images.githubusercontent.com/16022218/193894342-c67f7800-cd43-408b-bc77-f89ab4d7ce0f.png)
 
-**JSON** es la notación de objetos de JavaScript, **XML** es el lenguaje de marcado extensible
+**JSON** es la notación de objetos de JavaScript, **XML** es el lenguaje de marcado extensible.
 
 •	[**Explicar brevemente el estándar SOAP**](https://www.ibm.com/docs/es/rsas/7.5.0?topic=standards-soap "Explicar brevemente el estándar SOAP") - SOAP es un estándar basado en XML para la transmisión de mensajes en HTTP y otros protocolos de Internet. Es un protocolo ligero para el intercambio de información en un entorno descentralizado y distribuido.
 
