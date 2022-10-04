@@ -16,29 +16,12 @@
 
 •	[**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.** ](https://programmerclick.com/article/60681955413/ "**Explicar brevemente qué son las estructuras de datos JSON y XML dando ejemplo de estructuras posibles.** ")- **JSON(JavaScript Object Notation)** es un formato de intercambio de datos ligero, que es completamente independiente del idioma. Está basado en el lenguaje de programación JavaScript y es fácil de entender y generar. Por ejemplo:
 
-{"Student":[ 
-    { "Name":"Vivek", "age":"20" }, 
-    { "Name":"Suraj", "age":"19" }, 
-    { "Name":"John", "age":"21" }, 
-    { "Name":"Peter", "age":"22" } 
-]} 
+![imagen](https://user-images.githubusercontent.com/16022218/193893963-4ef7d30c-0770-4350-8b96-2457119f4237.png)
+
 
 **XML(Lenguaje de marcado extensible)** está diseñado para transmitir datos, no mostrar datos. Esta es la recomendación del W3C. El lenguaje de marcado extensible (XML) es un lenguaje de marcado que define un conjunto de reglas para codificar documentos en formatos legibles por humanos y legibles por máquina. Los objetivos de diseño de XML se centran en la simplicidad, versatilidad y usabilidad en Internet. Es un formato de datos de texto que proporciona un potente soporte para diferentes lenguajes humanos a través de Unicode. Aunque el diseño de XML se centra en documentos, el lenguaje se utiliza ampliamente para representar estructuras de datos arbitrarias, como las que se utilizan en los servicios web. Por ejemplo:
 
-<Students> 
-    <Student> 
-        <Name>Vivek</Name> <age>20</age> 
-    </Student> 
-    <Student> 
-        <Name>Suraj</Name> <age>19</age> 
-    </Student> 
-    <Student> 
-        <Name>John</Name> <age>21</age> 
-    </Student> 
-    <Student> 
-        <Name>Peter</Name> <age>22</age> 
-    </Student> 
-</Students>
+![imagen](https://user-images.githubusercontent.com/16022218/193894342-c67f7800-cd43-408b-bc77-f89ab4d7ce0f.png)
 
 **JSON** es la notación de objetos de JavaScript, **XML** es el lenguaje de marcado extensible
 
