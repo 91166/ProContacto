@@ -32,3 +32,24 @@ Cuestionario de preguntas de comprensión del protocolo HTTP
 •	[**Explicar brevemente el estándar RESTful**](https://www.redhat.com/es/topics/api/what-is-a-rest-api "Explicar brevemente el estándar RESTful") - Es considerada una técnica de arquitectura de software, es decir, un conjunto de principios y patrones de comunicación que ayudan a crear una forma de pensar y construir las APIs. Este tipo de arquitectura se define por un conjunto de restricciones entre los elementos, componentes, conectores y datos usados. Una API de REST, o API de RESTful, es una interfaz de programación de aplicaciones (API o API web) que se ajusta a los límites de la arquitectura REST y permite la interacción con los servicios web de RESTful.
 
 •	[**¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?**](https://developer.mozilla.org/es/docs/Web/HTTP/Headers/Content-Type "¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?") – Como ya se indico antes los headers o cabeceras HTTP de una petición siguen la misma estructura que la de una cabecera HTTP. Content-Type es la propiedad de cabecera (header) usada para indicar el media type (en-US) del recurso. Content-Type dice al cliente que tipo de contenido será retornado.
+
+## Ejercicio 2
+
+•	Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+![imagen](https://user-images.githubusercontent.com/16022218/193928585-7b48f4a8-6e91-44bb-b9bb-ea9c7f3b1703.png)
+
+•	Realizar un request POST a la URL anterior, y con body:
+{
+"name":"emilio",
+"email":"emilio.jarrin@procontacto.com.mx"
+}
+![imagen](https://user-images.githubusercontent.com/16022218/193929359-372a26ad-2186-460f-9fab-7fa989058b43.png)
+
+
+•	Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+![imagen](https://user-images.githubusercontent.com/16022218/193930340-9d60f596-e6bf-4b7e-abd1-85ac6451620f.png)
+
+
+¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+
+De primera mano que la instrucción que se me dío el paso 2 estaba mal, no estaba comillado el email y solo obtenía error, pero una vez comillado se ejecutaba correctamente, y al hacer el paso 3 del GET a la dirección indicada, se han agregado los datos que envíe.
