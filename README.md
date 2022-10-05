@@ -17,6 +17,7 @@ zulu19.28.81-ca-jdk19.0.0-win_x64
 dataloader_win_v56.0.4
 
 ## EJERCICIO 2
+
 ### Cuestionario de preguntas de comprensión del protocolo HTTP
 
 [•	**¿Qué es un servidor HTTP?** ](https://developer.mozilla.org/es/docs/Learn/Common_questions/What_is_a_web_server "•	¿Qué es un servidor HTTP? ")- Un servidor HTTP es una pieza de software capaz de comprender URLs (direcciones web) y HTTP (el protocolo que tu navegador usa para obtener las páginas web).
@@ -78,6 +79,7 @@ dataloader_win_v56.0.4
 De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el email y solo se obtenía error. Una vez comillado se ejecutó correctamente la inserción, y al hacer el paso 3 del GET a la dirección indicada, se observa que se han insertado los datos que se envió, al final del response.
 
 ## EJERCICIO 4
+
 ### Se solicita el usuario de TrailHead y se procede al cambio del idioma, tal cual se indica en las instrucciones. Posterior se realizan los módulos indicados.
 
 ## EJERCICIO 5
@@ -103,7 +105,7 @@ De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el ema
 
 •	[**Case**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Case.htm?q=Case "Case") - Representa un caso, que es un asunto o problema del cliente. Datos estándar son: Id, Origin, Status, etc.
 
-•	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=KnowledgeArticleVersion "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Este objeto está disponible en la versión 18.0 de la API y posteriores. Datos estándar son: Id, Title, ArticleNumber, Language, etc
+•	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=KnowledgeArticleVersion "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Este objeto está disponible en la versión 18.0 de la API y posteriores. Datos estándar son: Id, Title, ArticleNumber, Language, etc
 
 ## EJERCICIO 4
 
@@ -212,6 +214,5 @@ Del inglés, el acrónimo KPI significa Key Performance Indicator, es decir, Ind
 •	[**¿Qué es un ERP?**](https://dynamics.microsoft.com/es-es/erp/define-erp/ "¿Qué es un ERP?") – La planificación de recursos empresariales, también conocida como ERP, es un sistema que ayuda a automatizar y administrar los procesos empresariales de distintas áreas: finanzas, fabricación, venta al por menor, cadena de suministro, recursos humanos y operaciones.
 
 •	[**¿Salesforce es un ERP?**](https://www.salesforce.com/mx/products/what-is-salesforce/?bc=OTH "¿Salesforce es un ERP?") - Salesforce es una solución de gestión de relaciones con clientes que une empresas y clientes. Es una plataforma CRM integrada que brinda a todos tus departamentos, incluidos marketing, ventas, comercio y servicios, una vista única y compartida de cada cliente.
-
 
 ## EJERCICIO 7
