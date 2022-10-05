@@ -1,6 +1,8 @@
-# ProContacto
+![imagen](https://user-images.githubusercontent.com/16022218/194113196-e219c5c6-4f53-4e6c-a425-91f818a8542b.png)
+
 ## EJERCICIO 1
-Se realizan la descarga e instalación de:
+
+### Se realizan la descarga e instalación de:
 
 VSCodeUserSetup-x64-1.71.2
 
@@ -46,7 +48,10 @@ Postman-win64-Setup (que también se va a usar más adelante)
 
 ## Ejercicio 3
 
+### Revisar los conceptos de la sintaxis “json” antes de arrancar con los ejercicios
+
 •	Realizar un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+
 ![imagen](https://user-images.githubusercontent.com/16022218/193928585-7b48f4a8-6e91-44bb-b9bb-ea9c7f3b1703.png)
 
 •	Realizar un request POST a la URL anterior, y con body:
@@ -54,14 +59,16 @@ Postman-win64-Setup (que también se va a usar más adelante)
 "name":"emilio",
 "email":"emilio.jarrin@procontacto.com.mx"
 }
+
 ![imagen](https://user-images.githubusercontent.com/16022218/193929359-372a26ad-2186-460f-9fab-7fa989058b43.png)
 
 
 •	Realizar nuevamente un request GET a la URL: https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts.json
+
 ![imagen](https://user-images.githubusercontent.com/16022218/193930340-9d60f596-e6bf-4b7e-abd1-85ac6451620f.png)
 
 
-¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+**¿Qué diferencias se observan entre las llamadas del punto 1 y 3?**
 
 De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el email y solo se obtenía error. Una vez comillado se ejecutó correctamente la inserción, y al hacer el paso 3 del GET a la dirección indicada, se observa que se han insertado los datos que se envió, al final del response.
 
