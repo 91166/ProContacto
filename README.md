@@ -86,26 +86,32 @@ De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el ema
 
 ### Los siguientes objetos de Salesforce conceptualmente son:
 
-•	[**Lead** ](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Lead.htm?q=lead "Lead ")- Representa un prospecto o un cliente potencial. Datos estándar son: Address, City, Company, Country, etc.
+•	[**Lead** ](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Lead.htm?q=lead "Lead ")- Representa un prospecto o un cliente potencial. Sus campos son los siguientes:
 
-•	[**Account**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Account.htm?q=account "Account") - Representa una cuenta individual, que es una organización o persona involucrada con su negocio (como clientes, competidores y socios). Datos estándar son: Id, Description, Account Source, etc.
+![imagen](https://user-images.githubusercontent.com/16022218/194184405-a3eb3343-a04d-4325-a384-338dfb7b0076.png)
 
-•	[**Contact**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Contact.htm?q=Contact "Contact") - Representa un contacto, que es una persona asociada a una cuenta. Datos estándar son: AccountId, Email, Department, Description, etc.
+•	[**Account**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Account.htm?q=account "Account") - Representa una cuenta individual, que es una organización o persona involucrada con su negocio (como clientes, competidores y socios). Sus campos son los siguientes:
 
-•	[**Opportunity**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Opportunity.htm?q=Opportunity "Opportunity") - Representa una oportunidad, que es una venta o un acuerdo pendiente. Datos estándar son: AccountId, Amount, Description, Id, etc.
+![imagen](https://user-images.githubusercontent.com/16022218/194184476-567b0794-de5c-499f-86e1-92c7d3bec3bf.png)
+
+•	[**Contact**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Contact.htm?q=Contact "Contact") - Representa un contacto, que es una persona asociada a una cuenta. Sus campos son los siguientes:
+
+![imagen](https://user-images.githubusercontent.com/16022218/194184517-9f2fb33e-6634-4820-9004-4262777e6ee8.png)
+
+•	[**Opportunity**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Opportunity.htm?q=Opportunity "Opportunity") - Representa una oportunidad, que es una venta o un acuerdo pendiente. Sus campos son los siguientes:
 
 
-•	[**ProductAttributeSetProduct**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_ProductAttributeSetProduct.htm?q=Product "ProductAttributeSetProduct") - Representa el producto asociado a un conjunto de atributos. Datos estándar son: Id, Name, ProductId, ProductAttributeSetId, etc.
+•	[**ProductAttributeSetProduct**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_ProductAttributeSetProduct.htm?q=Product "ProductAttributeSetProduct") - Representa el producto asociado a un conjunto de atributos. Sus campos son los siguientes:
 
-•	[**PriceBook2**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Pricebook2.htm?q=pricebook2 "PriceBook2") - Representa un libro de precios que contiene la lista de productos que su organización vende. Los libros de precios están representados por objetos Pricebook2. A partir de la versión 8.0 de la API, el objeto Pricebook ya no está disponible. Las solicitudes que contienen Pricebook son rechazadas, y las respuestas no contienen el objeto Pricebook. Datos estándar son: Id, Name, Description, CreatedById, etc.
+•	[**PriceBook2**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Pricebook2.htm?q=pricebook2 "PriceBook2") - Representa un libro de precios que contiene la lista de productos que su organización vende. Los libros de precios están representados por objetos Pricebook2. A partir de la versión 8.0 de la API, el objeto Pricebook ya no está disponible. Las solicitudes que contienen Pricebook son rechazadas, y las respuestas no contienen el objeto Pricebook. Sus campos son los siguientes:
 
-•	[**Quote**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Quote.htm?q=quote "Quote") - El objeto Cotización representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios. Disponible a partir de la versión 18.0 de la API. Datos estándar son: Id, Name, Pricebook2Id, Status, etc.
+•	[**Quote**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Quote.htm?q=quote "Quote") - El objeto Cotización representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios. Disponible a partir de la versión 18.0 de la API. Sus campos son los siguientes:
 
-•	[**Asset**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Asset.htm?q=Asset "Asset") - Representa un artículo de valor comercial, como un producto vendido por su empresa o por un competidor, que un cliente ha comprado. Datos estándar son: Id, Address, City, Description, Country, etc.
+•	[**Asset**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Asset.htm?q=Asset "Asset") - Representa un artículo de valor comercial, como un producto vendido por su empresa o por un competidor, que un cliente ha comprado. Sus campos son los siguientes:
 
-•	[**Case**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Case.htm?q=Case "Case") - Representa un caso, que es un asunto o problema del cliente. Datos estándar son: Id, Origin, Status, etc.
+•	[**Case**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Case.htm?q=Case "Case") - Representa un caso, que es un asunto o problema del cliente. Sus campos son los siguientes:
 
-•	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=KnowledgeArticleVersion "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Este objeto está disponible en la versión 18.0 de la API y posteriores. Datos estándar son: Id, Title, ArticleNumber, Language, etc
+•	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=KnowledgeArticleVersion "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Este objeto está disponible en la versión 18.0 de la API y posteriores. Sus campos son los siguientes:
 
 ## EJERCICIO 4
 
@@ -121,6 +127,7 @@ De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el ema
 •	[**Contact**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Contact.htm?q=Contact "Contact") - Representa un contacto, que es una persona asociada a una cuenta. Datos estándar son: AccountId, Email, Department, Description, etc.
 
 •	[**Opportunity**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Opportunity.htm?q=Opportunity "Opportunity") - Representa una oportunidad, que es una venta o un acuerdo pendiente. Datos estándar son: AccountId, Amount, Description, Id, etc.
+
 
 •	[**Product**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_ProductItemTransaction.htm?q=Product "Product") - Representa una acción realizada sobre un artículo de producto en el servicio de campo. Las transacciones de artículos de producto son registros autogenerados que le ayudan a realizar un seguimiento cuando un artículo de producto se repone, se consume o se ajusta. Datos estándar son: Id, Description, Quantity, ProductItemId, etc.
 
