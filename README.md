@@ -79,7 +79,7 @@ Los siguientes objetos de Salesforce conceptualmente son:
 •	[**Opportunity**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Opportunity.htm?q=Opportunity "Opportunity") - Representa una oportunidad, que es una venta o un acuerdo pendiente. Datos estándar son: AccountId, Amount, Description, Id, etc.
 
 
-•	[**ProductAttributeSetProduct**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_ProductAttributeSetProduct.htm?q=Product "ProductAttributeSetProduct") - Representa una acción realizada sobre un artículo de producto en el servicio de campo. Las transacciones de artículos de producto son registros autogenerados que le ayudan a realizar un seguimiento cuando un artículo de producto se repone, se consume o se ajusta. Datos estándar son: Id, Description, Quantity, ProductItemId, etc.
+•	[**ProductAttributeSetProduct**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_ProductAttributeSetProduct.htm?q=Product "ProductAttributeSetProduct") - Representa el producto asociado a un conjunto de atributos. Datos estándar son: Id, Name, ProductId, ProductAttributeSetId, etc.
 
 •	[**PriceBook2**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Pricebook2.htm?q=pricebook2 "PriceBook2") - Representa un libro de precios que contiene la lista de productos que su organización vende. Datos estándar son: Id, Name, Description, CreatedById, etc.
 
