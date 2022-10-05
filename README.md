@@ -8,8 +8,13 @@ VSCodeUserSetup-x64-1.71.2
 
 Git-2.38.0-64-bit
 
-Postman-win64-Setup (que también se va a usar más adelante)
+**También se van a usar más adelante**
 
+Postman-win64-Setup
+
+zulu19.28.81-ca-jdk19.0.0-win_x64
+
+dataloader_win_v56.0.4
 
 ## EJERCICIO 2
 ### Cuestionario de preguntas de comprensión del protocolo HTTP
