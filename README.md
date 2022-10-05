@@ -95,17 +95,15 @@ De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el ema
 
 •	[**ProductAttributeSetProduct**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_ProductAttributeSetProduct.htm?q=Product "ProductAttributeSetProduct") - Representa el producto asociado a un conjunto de atributos. Datos estándar son: Id, Name, ProductId, ProductAttributeSetId, etc.
 
-•	[**PriceBook2**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Pricebook2.htm?q=pricebook2 "PriceBook2") - Representa un libro de precios que contiene la lista de productos que su organización vende. Datos estándar son: Id, Name, Description, CreatedById, etc.
+•	[**PriceBook2**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Pricebook2.htm?q=pricebook2 "PriceBook2") - Representa un libro de precios que contiene la lista de productos que su organización vende. Los libros de precios están representados por objetos Pricebook2. A partir de la versión 8.0 de la API, el objeto Pricebook ya no está disponible. Las solicitudes que contienen Pricebook son rechazadas, y las respuestas no contienen el objeto Pricebook. Datos estándar son: Id, Name, Description, CreatedById, etc.
 
-
-•	[**Quote**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Quote.htm?q=quote "Quote") - El objeto Cotización representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios. Datos estándar son: Id, Name, Pricebook2Id, Status, etc.
+•	[**Quote**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Quote.htm?q=quote "Quote") - El objeto Cotización representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios. Disponible a partir de la versión 18.0 de la API. Datos estándar son: Id, Name, Pricebook2Id, Status, etc.
 
 •	[**Asset**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Asset.htm?q=Asset "Asset") - Representa un artículo de valor comercial, como un producto vendido por su empresa o por un competidor, que un cliente ha comprado. Datos estándar son: Id, Address, City, Description, Country, etc.
 
-
 •	[**Case**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_Case.htm?q=Case "Case") - Representa un caso, que es un asunto o problema del cliente. Datos estándar son: Id, Origin, Status, etc.
 
-•	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=KnowledgeArticleVersion "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Datos estándar son: Id, Title, ArticleNumber, Language, etc
+•	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=KnowledgeArticleVersion "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Este objeto está disponible en la versión 18.0 de la API y posteriores. Datos estándar son: Id, Title, ArticleNumber, Language, etc
 
 ## EJERCICIO 4
 
