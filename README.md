@@ -155,7 +155,9 @@ De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el ema
 
 •	[**KnowledgeArticleVersion**](https://developer.salesforce.com/docs/atlas.en-us.sfFieldRef.meta/sfFieldRef/salesforce_field_reference_KnowledgeArticleVersion.htm?q=Article "KnowledgeArticleVersion") - Proporciona una vista global de los campos estándar de los artículos en todos los tipos de artículos en función de su versión. Datos estándar son: Id, Title, ArticleNumber, Language, etc
 
-### Enumerandolos y relacionando los campos a través de un UML:
+### UML de los objetos
+
+**![Objetos relacionados](https://github.com/91166/ProContacto/blob/main/Relaciones.drawio "Objetos relacionados")**
 
 
 ## EJERCICIO 6
