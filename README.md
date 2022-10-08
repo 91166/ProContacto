@@ -80,7 +80,9 @@ De primera mano, la instrucción del paso 2 esta mal, no estaba comillado el ema
 
 ## EJERCICIO 4
 
-### Se solicita el usuario de TrailHead y se procede al cambio del idioma, tal cual se indica en las instrucciones. Posterior se realizan los módulos indicados.
+### Se solicita el usuario de TrailHead y se procede al cambio del idioma, tal cual se indica en las instrucciones. Posterior se realizan los módulos indicados y se comparte el link del Playground y el perfil público
+
+[Perfil público de Trailhead de Emilio Jarrín](http://https://trailhead.salesforce.com/es-MX/users/norozco3/trailmixes/introduccion "Perfil público de Trailhead de Emilio Jarrín")
 
 ## EJERCICIO 5
 
