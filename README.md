@@ -212,3 +212,5 @@ Del inglés, el acrónimo KPI significa Key Performance Indicator, es decir, Ind
 •	[**¿Salesforce es un ERP?**](https://www.salesforce.com/mx/products/what-is-salesforce/?bc=OTH "¿Salesforce es un ERP?") - Salesforce es una solución de gestión de relaciones con clientes que une empresas y clientes. Es una plataforma CRM integrada que brinda a todos tus departamentos, incluidos marketing, ventas, comercio y servicios, una vista única y compartida de cada cliente.
 
 ## EJERCICIO 7
+
+Pendiente por falta de CREDENCIALES.
